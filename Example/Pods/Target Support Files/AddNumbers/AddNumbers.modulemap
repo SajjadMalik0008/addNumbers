@@ -1,0 +1,6 @@
+framework module AddNumbers {
+  umbrella header "AddNumbers-umbrella.h"
+
+  export *
+  module * { export * }
+}

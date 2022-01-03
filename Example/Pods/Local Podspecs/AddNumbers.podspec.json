@@ -1,0 +1,22 @@
+{
+  "name": "AddNumbers",
+  "version": "0.1.0",
+  "summary": "A short description of AddNumbers.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Muhammad Sajjad/AddNumbers",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Muhammad Sajjad": "sajjad.ishfaq@ili.digital"
+  },
+  "source": {
+    "git": "https://github.com/Muhammad Sajjad/AddNumbers.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "AddNumbers/Classes/**/*"
+}
