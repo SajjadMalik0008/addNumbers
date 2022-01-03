@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import AddNumbers
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let addNum = AddNumbers()
+        print(addNum.addTwoNum(num1: 4, num2: 5))
     }
 
     override func didReceiveMemoryWarning() {

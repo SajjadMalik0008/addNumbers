@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'AddNumbers'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of AddNumbers.'
+  s.summary          = 'its my first demo framework.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,15 +21,15 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Muhammad Sajjad/AddNumbers'
+  s.homepage         = 'https://github.com/SajjadMalik0008/addNumbers.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Muhammad Sajjad' => 'sajjad.ishfaq@ili.digital' }
-  s.source           = { :git => 'https://github.com/Muhammad Sajjad/AddNumbers.git', :tag => s.version.to_s }
+  s.author           = { 'Muhammad Sajjad' => 'meetsajjadmalik@gmail.com' }
+  s.source           = { :git => 'https://github.com/SajjadMalik0008/addNumbers.git.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
+  s.swift_versions = "5.0"
   s.source_files = 'AddNumbers/Classes/**/*'
   
   # s.resource_bundles = {
